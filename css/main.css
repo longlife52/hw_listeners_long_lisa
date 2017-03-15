@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Heading Styles */
+h1 {
+    font-family: 'Griffy', cursive;
+    color: #ff3b3f;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #a9a9a9;
+}
