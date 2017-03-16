@@ -8,8 +8,8 @@ changeCircle.addEventListener('mouseover', function () {
 });
 
 //doubleClickEffect
-//listen for a scroll
-//when scroll, change rectangle from solid to transparent
+//listen for a double click
+//when double click, change rectangle from solid to transparent
 var doubleClickEffect = document.getElementById('doubleClickEffect');
 
 doubleClickEffect.addEventListener('dblclick', function () {
