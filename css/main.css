@@ -1,15 +1,22 @@
-/* changeCircle Style */
-#changeCircle {
+/* Styles */
+h2 {
+    text-align: center;
+    color: #a9a9a9;
+}
+
+#changeCircle,
+#addText {
     width: 8em;
     height: 8em;
     border-radius: 50%;
     margin: auto;
     background: #ff3b3f;
+    margin-bottom: 5em;
 }
 
-#changeCircle h2 {
+#changeCircle h2,
+#addText h2 {
     color: #efefef;
-    text-align: center;
     padding-top: 2em;
 }
 
@@ -18,9 +25,10 @@
     height: 5em;
     background: #a9a9a9;
     margin: auto;
+    margin-bottom: 5em;
 }
 
 #doubleClickEffect h2 {
-    text-align: center;
     padding-top: 1.25em;
+    color: #212121;
 }
