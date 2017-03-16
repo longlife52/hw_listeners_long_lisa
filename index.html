@@ -9,10 +9,9 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="formbox">
         <form method="post" action="mailto:garrisonridge@gmail.com" id="listenerform" name="listenerform">
-            <fieldset id="formbox">
-                <legend>Join Us to Listen!</legend>
+            <fieldset>
                 <!--text boxes for form -->
                 <label for="firstname">First Name</label>
                     <input type="text" id="firstname" name="firstname" />
@@ -20,9 +19,14 @@
                     <input type="text" id="lastname" name="lastname" />
                 <label for="email">Email</label>
                     <input type="text" id="email" name="email" />
-                <!--text area for message box on form -->
-                <h4>Tell Us More!</h4>
-                <textarea id="comments" name="comments"></textarea>
+                <!-- div prevents field set from using 100% of container width, must be wrapped in div -->
+                <div>
+                    <!--text area for message box on form -->
+                    <fieldset class="fieldset-auto-width">
+                        <legend>Tell us more!</legend>
+                        <textarea id="comments" name="comments"></textarea>
+                    </fieldset>
+                </div>
                 <!--submit form -->
                 <input type = "submit" id="submit" name="submit" value="Sign Me Up!"/>
             </fieldset>

@@ -4,20 +4,47 @@ body {
 }
 
 .container {
-    margin: auto;
-    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
 }
 
+/* Form */
 fieldset {
-    border: 0.625em solid #ff3b3f;
+    border: 0.15em solid #ff3b3f;
     padding: 0.8em;
     margin-bottom: 1em;
     border-radius: 1em;
     background-color: #caebf2;
+    text-align: center;
+}
+
+/* prevents field set from using 100% of container width, must be wrapped in div */
+.fieldset-auto-width {
+    display: inline-block;
+}
+
+form h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: #a9a9a9;
+}
+
+legend {
+    padding: 0 0.625em 0 0.625em;
+    color: #ff3b3f;
+    font-family: 'Open Sans', sans-serif;
 }
 
 label {
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: #a9a9a9;
+}
+
+input[type="text"] {
+    margin-bottom: 0.625em;
+    border-radius: 1em;
+    border: 0.125em solid #666600;
+    width: 25em;
+    padding: 0.125em;
+    text-align: center;
 }
