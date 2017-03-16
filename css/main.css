@@ -4,9 +4,6 @@
     height: 8em;
     border-radius: 50%;
     margin: auto;
-}
-
-.redColor {
     background: #ff3b3f;
 }
 
@@ -14,4 +11,16 @@
     color: #efefef;
     text-align: center;
     padding-top: 2em;
+}
+
+#scrollEffect {
+    width: 25em;
+    height: 5em;
+    background: #a9a9a9;
+    margin: auto;
+}
+
+#scrollEffect h2 {
+    text-align: center;
+    padding-top: 1.25em;
 }
