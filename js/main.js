@@ -1,7 +1,8 @@
 //changeCircle mouseover
-//listen for  mouseover
-//change color from red to blue
-var redToBlue = document.getElementById('changeCircle');
-document.addEventListener ('mouseover', function () {
+//listen for  mouseover on changeCircle
+//change color from red to light blue
+var changeCircle = document.getElementById('changeCircle');
 
-})
+changeCircle.addEventListener('mouseover', function () {
+    changeCircle.style.backgroundColor = '#caebf2';
+});
