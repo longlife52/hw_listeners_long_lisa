@@ -23,11 +23,6 @@ fieldset {
     display: inline-block;
 }
 
-form h4 {
-    font-family: 'Open Sans', sans-serif;
-    color: #a9a9a9;
-}
-
 legend {
     padding: 0 0.625em 0 0.625em;
     color: #ff3b3f;
@@ -38,13 +33,35 @@ label {
     display: block;
     font-family: 'Open Sans', sans-serif;
     color: #a9a9a9;
+    padding-bottom: 0.5em;
 }
 
 input[type="text"] {
-    margin-bottom: 0.625em;
+    margin-bottom: 1.5em;
     border-radius: 1em;
-    border: 0.125em solid #666600;
+    border: none;
+    height: 2em;
     width: 25em;
     padding: 0.125em;
     text-align: center;
+}
+
+textarea {
+    padding: 0.125em;
+    border: none;
+    width: 25em;
+    height: 6.25em;
+    margin-bottom: 0.625em;
+    border-radius: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ff3b3f;
+    display: block;
+    padding: 0.625em;
+    border: none;
+    margin: auto;
+    border-radius: 1em;
+    width: 25em;
+    color: #efefef;
 }
