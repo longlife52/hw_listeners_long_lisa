@@ -7,3 +7,11 @@ body {
     margin: auto;
     max-width: 1000px;
 }
+
+fieldset {
+    border: 0.625em solid #ff3b3f;
+    padding: 0.8em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    background-color: #caebf2;
+}
