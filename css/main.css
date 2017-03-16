@@ -12,9 +12,11 @@ html {
 h1 {
     font-family: 'Griffy', cursive;
     color: #ff3b3f;
+    text-align: center;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
     color: #a9a9a9;
+    text-align: center;
 }
