@@ -1,0 +1,14 @@
+/* changeCircle Style */
+#changeCircle {
+    width: 8em;
+    height: 8em;
+    background: #ff3b3f;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#changeCircle h2 {
+    color: #efefef;
+    text-align: center;
+    padding-top: 2em;
+}
