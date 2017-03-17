@@ -15,3 +15,14 @@ var doubleClickEffect = document.getElementById('doubleClickEffect');
 doubleClickEffect.addEventListener('dblclick', function () {
     doubleClickEffect.style.background = 'rgba(169, 169, 169, 0.2)';
 });
+
+//addText effect
+//listen for mouse moving away from circle 3
+//when mouseleave, add text
+var addText = document.getElementById('addText');
+
+addText.addEventListener('mouseleave', function () {
+    var newText = document.createElement('newText');
+    newText.innerHTML = '<p>Made it through this assignment!</p>';
+    document.getElementById('addText').appendChild(newText);
+});
