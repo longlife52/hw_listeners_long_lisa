@@ -32,3 +32,9 @@ h2 {
     padding-top: 1.25em;
     color: #212121;
 }
+
+#addText p {
+    padding-top: 3em;
+    text-align: center;
+    color: #a9a9a9;
+}
