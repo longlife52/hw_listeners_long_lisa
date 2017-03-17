@@ -6,13 +6,14 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
+    max-width: 500px;
 }
 
 /* Form */
 fieldset {
     border: 0.15em solid #ff3b3f;
     padding: 0.8em;
-    margin-bottom: 1em;
+    margin: 4em 1em 4em 1em;
     border-radius: 1em;
     background-color: #caebf2;
     text-align: center;
